@@ -62,7 +62,7 @@
             map.attributionControl.addAttribution(
                 '<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A16-v2_3.html">国土数値情報 - 人口集中地区データ</a>',
             );
-
+            
             fetch('./A16-15_00_DID.geojson') // 人口集中地区データ
                 .then((res) => res.json())
                 .then((json) => {
